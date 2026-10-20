@@ -1,0 +1,2337 @@
+{
+	"sourceRoot": "E:/MMM02",
+	"extractedAt": "2026-10-13T09:05:48.159Z",
+	"org": {
+		"name": "Muslim Medical Mission",
+		"legalName": "Muslim Medical Mission Foundation",
+		"short": "MMM",
+		"motto": "Wisdom, Action, Service for Allah for Right",
+		"founded": 2005,
+		"phone": "+92 321 424 4433",
+		"phoneHref": "tel:+923214244433",
+		"whatsapp": "https://wa.me/923214244433",
+		"email": "info@mmm.org.pk",
+		"address": {
+			"line1": "Building Number 430, Phase 1",
+			"line2": "Johar Town, Lahore",
+			"country": "Punjab, Pakistan"
+		},
+		"social": [
+			{
+				"name": "Facebook",
+				"href": "https://facebook.com/MMMPakOfficial"
+			},
+			{
+				"name": "Instagram",
+				"href": "https://instagram.com/MMMPakOfficial"
+			},
+			{
+				"name": "X",
+				"href": "https://x.com/MMMPakOfficial"
+			},
+			{
+				"name": "YouTube",
+				"href": "https://youtube.com/@mmmpakofficial"
+			}
+		],
+		"bank": {
+			"title": "Muslim Medical Mission Foundation",
+			"bank": "United Bank Limited (UBL)",
+			"account": "0635338617189",
+			"iban": "PK50UNIL0109000338617189",
+			"branch": "0635, C Block Bank Square Market, Model Town, Lahore"
+		},
+		"mobileWallets": "JazzCash and EasyPaisa: 0321 4244433"
+	},
+	"nav": [
+		{
+			"label": "About Us",
+			"href": "/about",
+			"blurb": "Volunteer led since the 2005 Kashmir earthquake, run by practising clinicians who serve humanity.",
+			"columns": [
+				{
+					"heading": "The Organisation",
+					"links": [
+						{
+							"label": "Who We Are",
+							"href": "/about",
+							"note": "Founded in 2005"
+						},
+						{
+							"label": "Mission and Vision",
+							"href": "/about#mission"
+						},
+						{
+							"label": "Our Means & Ethics",
+							"href": "/about#means"
+						},
+						{
+							"label": "Where We Work",
+							"href": "/about#reach"
+						}
+					]
+				},
+				{
+					"heading": "Accountability",
+					"links": [
+						{
+							"label": "How Your Donation Is Spent",
+							"href": "/donate#allocation"
+						},
+						{
+							"label": "Field Reports",
+							"href": "/media"
+						},
+						{
+							"label": "Contact the Team",
+							"href": "/contact"
+						}
+					]
+				}
+			],
+			"feature": {
+				"title": "Pre-Conference BLS with Rescue 1122",
+				"body": "Ensuring every MMM volunteer in the field is properly equipped through hands-on emergency drills.",
+				"href": "/about",
+				"cta": "Read about training",
+				"image": "/media/field/bls-rescue-1122.jpg"
+			}
+		},
+		{
+			"label": "What We Do",
+			"href": "/what-we-do",
+			"blurb": "Three operational pillars delivering free frontline healthcare, disaster relief, and medical education.",
+			"columns": [
+				{
+					"heading": "Pillar A: Mercy in Motion",
+					"links": [
+						{
+							"label": "Free Medical Camps",
+							"href": "/what-we-do/flood-medical-camps"
+						},
+						{
+							"label": "Welfare & Prison Clinics",
+							"href": "/what-we-do/prison-healthcare"
+						},
+						{
+							"label": "Surgical Missions",
+							"href": "/what-we-do/save-vision"
+						},
+						{
+							"label": "Nutrition and Flood Relief",
+							"href": "/what-we-do/flood-relief"
+						},
+						{
+							"label": "Water is Life",
+							"href": "/what-we-do/water-for-life"
+						}
+					]
+				},
+				{
+					"heading": "Pillar B: First to Reach",
+					"links": [
+						{
+							"label": "Rapid deployment teams",
+							"href": "/disaster-response"
+						},
+						{
+							"label": "Flood Emergency Camps",
+							"href": "/what-we-do/flood-medical-camps"
+						},
+						{
+							"label": "Gaza Field Clinics",
+							"href": "/what-we-do/gaza-field-clinics"
+						},
+						{
+							"label": "Winter Packages",
+							"href": "/what-we-do/winter-packages"
+						}
+					]
+				},
+				{
+					"heading": "Pillar C: MMM Academy",
+					"links": [
+						{
+							"label": "CME Series & Symposia",
+							"href": "/what-we-do/professional-development"
+						},
+						{
+							"label": "Skills for Service",
+							"href": "/what-we-do/training"
+						},
+						{
+							"label": "Future Healers Scholarships",
+							"href": "/what-we-do/health-education"
+						}
+					]
+				}
+			],
+			"feature": {
+				"title": "Building Tomorrow's Healers",
+				"body": "Raising a generation of Muslim healthcare professionals grounded in clinical excellence and Islamic medical ethics.",
+				"href": "/what-we-do",
+				"cta": "Explore all programs",
+				"image": "/media/field/hero-national-conference.jpg"
+			}
+		},
+		{
+			"label": "Disaster Response",
+			"href": "/disaster-response",
+			"blurb": "Rapid clinical and emergency relief deployment across disaster-affected zones.",
+			"columns": [
+				{
+					"heading": "Emergency Operations",
+					"links": [
+						{
+							"label": "Flood Emergency Medical Camps",
+							"href": "/what-we-do/flood-medical-camps"
+						},
+						{
+							"label": "Ration & Food Relief",
+							"href": "/what-we-do/flood-relief"
+						},
+						{
+							"label": "Tharparkar Drought Clinics",
+							"href": "/what-we-do/flood-medical-camps"
+						}
+					]
+				},
+				{
+					"heading": "Gaza Relief Mission",
+					"links": [
+						{
+							"label": "Gaza Field Clinics",
+							"href": "/what-we-do/gaza-field-clinics"
+						},
+						{
+							"label": "Water for Life Tankers",
+							"href": "/what-we-do/water-for-life"
+						},
+						{
+							"label": "Food Parcels & Hot Meals",
+							"href": "/what-we-do/food-parcels-gaza"
+						},
+						{
+							"label": "Winter Relief Packages",
+							"href": "/what-we-do/winter-packages"
+						}
+					]
+				}
+			],
+			"feature": {
+				"title": "When Calamity Strikes",
+				"body": "Since the 2005 Kashmir earthquake, our pre-trained medical teams deploy within hours, not days.",
+				"href": "/disaster-response",
+				"cta": "See response timeline",
+				"image": "/media/field/hero-disaster-response.jpg"
+			}
+		},
+		{
+			"label": "Media",
+			"href": "/media",
+			"blurb": "Photographs, field video and reports from the clinicians on the frontline.",
+			"columns": [
+				{
+					"heading": "Newsroom",
+					"links": [
+						{
+							"label": "Field Reports",
+							"href": "/media"
+						},
+						{
+							"label": "Photo Library",
+							"href": "/media#gallery"
+						},
+						{
+							"label": "Video",
+							"href": "/media#video"
+						},
+						{
+							"label": "Live social feed",
+							"href": "/#social-feed"
+						}
+					]
+				},
+				{
+					"heading": "Resources",
+					"links": [
+						{
+							"label": "Health campaigns",
+							"href": "/what-we-do/health-education"
+						},
+						{
+							"label": "For journalists",
+							"href": "/contact"
+						}
+					]
+				}
+			],
+			"feature": {
+				"title": "Field Reports & Stories",
+				"body": "Visual documentation and firsthand dispatches from our active medical relief missions across Pakistan and Gaza.",
+				"href": "/media",
+				"cta": "View gallery",
+				"image": "/media/field/conference-awards-ceremony.jpg"
+			}
+		},
+		{
+			"label": "Get Involved",
+			"href": "/get-involved",
+			"blurb": "Join a network of volunteer doctors, paramedics, and supporters serving humanity.",
+			"columns": [
+				{
+					"heading": "Volunteer",
+					"links": [
+						{
+							"label": "Doctors & medical staff",
+							"href": "/get-involved"
+						},
+						{
+							"label": "Paramedics & field support",
+							"href": "/get-involved"
+						},
+						{
+							"label": "Student volunteer wing",
+							"href": "/get-involved"
+						}
+					]
+				},
+				{
+					"heading": "Support Us",
+					"links": [
+						{
+							"label": "Donate directly",
+							"href": "/donate"
+						},
+						{
+							"label": "Corporate & institutional partners",
+							"href": "/get-involved#partners"
+						},
+						{
+							"label": "Contact the team",
+							"href": "/contact"
+						}
+					]
+				}
+			],
+			"feature": {
+				"title": "Join the Medical Mission",
+				"body": "Lend your clinical expertise or time to bring urgent medical relief to those most in need.",
+				"href": "/get-involved",
+				"cta": "Join as volunteer",
+				"image": "/media/field/future-healers-mentorship.jpg"
+			}
+		}
+	],
+	"impactStats": [
+		{
+			"value": 1000000,
+			"suffix": "+",
+			"label": "Patients Served",
+			"detail": "Free consultation and medicine"
+		},
+		{
+			"value": 16,
+			"suffix": "",
+			"label": "Annual Medical Conferences Organised",
+			"detail": "Educational & professional development"
+		},
+		{
+			"value": 20,
+			"suffix": "+",
+			"label": "Years of Service",
+			"detail": "Volunteer led, without a paid fundraising arm"
+		},
+		{
+			"value": 12,
+			"suffix": "+",
+			"label": "National Disasters Responded To",
+			"detail": "Rapid emergency response across Pakistan"
+		},
+		{
+			"value": 3,
+			"suffix": "+",
+			"label": "Years of Service to People of Gaza",
+			"detail": "Water, food & medicine for displaced families"
+		},
+		{
+			"value": 15,
+			"suffix": "+",
+			"label": "Regular Flagship Projects",
+			"detail": "Standing programmes running year-round"
+		}
+	],
+	"programs": [
+		{
+			"slug": "flood-medical-camps",
+			"title": "Flood emergency medical camps",
+			"region": "Pakistan",
+			"summary": "During flood emergencies, Muslim Medical Mission provides free medical camps in affected communities. Teams offer medical consultations, basic treatment, essential medicines, and referrals where further care is needed.",
+			"body": [
+				"During flood emergencies, Muslim Medical Mission provides free medical camps in affected communities. Teams offer medical consultations, basic treatment, essential medicines, and referrals where further care is needed."
+			],
+			"image": "/media/field/pillar-a-camp-01.jpg",
+			"gallery": [
+				"/media/field/pillar-a-camp-02.jpg",
+				"/media/field/pillar-a-camp-03.jpg",
+				"/media/field/pillar-a-camp-04.jpg",
+				"/media/field/pillar-a-camp-05.jpg"
+			],
+			"accent": "blue",
+			"highlights": [
+				{
+					"label": "Medical camps",
+					"value": "Free in affected communities"
+				},
+				{
+					"label": "Consultations",
+					"value": "Medical teams provide exams"
+				},
+				{
+					"label": "Referrals",
+					"value": "Where further care is needed"
+				}
+			]
+		},
+		{
+			"slug": "flood-relief",
+			"title": "Flood relief distribution",
+			"region": "Pakistan",
+			"summary": "Muslim Medical Mission provides flood relief to affected communities in South Punjab and Balochistan. Support includes staple food, clean drinking water, and cash assistance for households facing significant losses.",
+			"body": [
+				"Muslim Medical Mission provides flood relief to affected communities in South Punjab and Balochistan. Support includes staple food, clean drinking water, and cash assistance for households facing significant losses."
+			],
+			"image": "/media/disaster/disaster-13.jpg",
+			"gallery": [
+				"/media/disaster/disaster-07.jpg",
+				"/media/disaster/disaster-12.jpg",
+				"/media/disaster/disaster-08.jpg",
+				"/media/disaster/disaster-15.jpeg"
+			],
+			"accent": "magenta",
+			"highlights": [
+				{
+					"label": "Regions",
+					"value": "South Punjab and Balochistan"
+				},
+				{
+					"label": "Staple food",
+					"value": "Provided to affected households"
+				},
+				{
+					"label": "Cash assistance",
+					"value": "For families facing significant losses"
+				}
+			]
+		},
+		{
+			"slug": "gaza-field-clinics",
+			"title": "Field clinics in Gaza",
+			"region": "Gaza",
+			"summary": "Paramedic and clinical teams running consultations, dressings, dispensing and paediatric care inside shelters and tented clinics.",
+			"body": [
+				"Muslim Medical Mission operates field clinics in Gaza, providing consultations, wound care, medicines and paediatric care through paramedic and clinical teams working in shelters and tented treatment areas.",
+				"Teams work in shelter rooms and tented treatment areas, seeing patients with wound care needs, respiratory infections, skin disease, malnutrition and chronic conditions. Services include proper dressings, full antibiotic courses, vital sign monitoring and child weight checks, with referrals arranged for care beyond what a tent can hold.",
+				"Everything is carried under one banner, emergency relief from the people of Pakistan to the people of Gaza, and delivered by Pakistani clinicians alongside local staff."
+			],
+			"image": "/media/medical/medical-45.jpg",
+			"gallery": [
+				"/media/medical/medical-28.jpg",
+				"/media/medical/medical-34.jpg",
+				"/media/medical/medical-43.jpg",
+				"/media/medical/medical-47.jpg",
+				"/media/medical/medical-17.jpg",
+				"/media/medical/medical-13.jpg"
+			],
+			"accent": "cyan",
+			"highlights": [
+				{
+					"label": "Delivered by",
+					"value": "Paramedic and clinical teams"
+				},
+				{
+					"label": "Caseload",
+					"value": "Wounds, infection, paediatrics"
+				},
+				{
+					"label": "Charge to the patient",
+					"value": "Nothing"
+				}
+			]
+		},
+		{
+			"slug": "food-parcels-gaza",
+			"title": "Food parcels and hot meals",
+			"region": "Gaza",
+			"summary": "Family food parcels handed over at the shelter door, and hot meals cooked and served where families have no way to cook at all.",
+			"body": [
+				"A displaced family living in a tent has no reliable way to store or cook food. Two things follow from that. Parcels have to be built around what can actually be prepared with what a household has, and where nothing can be prepared, the meal has to arrive cooked.",
+				"We do both. Parcels go out household by household with the recipient recorded, so the same families are not served twice while their neighbours go without. Hot meals are cooked in bulk and distributed on a fixed rota so people are not queuing on rumour."
+			],
+			"image": "/media/gaza-food/gaza-food-01.jpg",
+			"gallery": [
+				"/media/gaza-food/gaza-food-02.jpg",
+				"/media/gaza-food/gaza-food-03.jpg",
+				"/media/gaza-food/gaza-food-04.jpg",
+				"/media/gaza-food/gaza-food-05.jpg",
+				"/media/gaza-food/gaza-food-06.jpg"
+			],
+			"accent": "magenta",
+			"highlights": [
+				{
+					"label": "One family food parcel",
+					"value": "PKR 12,000"
+				},
+				{
+					"label": "Feeds",
+					"value": "A household for a month"
+				},
+				{
+					"label": "Tracked",
+					"value": "Household by household"
+				}
+			]
+		},
+		{
+			"slug": "water-for-life",
+			"title": "Water for Life",
+			"region": "Gaza",
+			"summary": "Muslim Medical Mission provides drinking water to communities affected by damaged or unavailable water infrastructure. Water tankers supply camps and shelters with water for household and communal use.",
+			"body": [
+				"Muslim Medical Mission provides drinking water to communities affected by damaged or unavailable water infrastructure. Water tankers supply camps and shelters with water for household and communal use."
+			],
+			"image": "/media/gaza-water/gaza-water-01.jpg",
+			"gallery": [
+				"/media/gaza-water/gaza-water-02.jpg",
+				"/media/gaza-water/gaza-water-03.jpg",
+				"/media/gaza-water/gaza-water-04.jpg",
+				"/media/gaza-water/gaza-water-05.jpg"
+			],
+			"accent": "blue",
+			"highlights": [
+				{
+					"label": "Water tankers",
+					"value": "Supply camps and shelters"
+				},
+				{
+					"label": "Household use",
+					"value": "Water provided for families"
+				},
+				{
+					"label": "Communal use",
+					"value": "Water for shared facilities"
+				}
+			]
+		},
+		{
+			"slug": "winter-packages",
+			"title": "Winter packages",
+			"region": "Gaza",
+			"summary": "Quilts, blankets and warm clothing for families living under canvas through a Gaza winter.",
+			"body": [
+				"A tent gives shelter from rain and almost nothing against cold.",
+				"Each package contains a heavy quilt, blankets and warm clothing sized for the children in the household. Distribution is recorded the same way food is, so coverage can be checked rather than assumed."
+			],
+			"image": "/media/gaza-winter/gaza-winter-01.jpg",
+			"gallery": [
+				"/media/gaza-winter/gaza-winter-02.jpg",
+				"/media/gaza-winter/gaza-winter-03.jpg",
+				"/media/gaza-winter/gaza-winter-04.jpg",
+				"/media/gaza-winter/gaza-winter-05.jpg"
+			],
+			"accent": "navy",
+			"highlights": [
+				{
+					"label": "One winter package",
+					"value": "PKR 9,000"
+				},
+				{
+					"label": "Contains",
+					"value": "Quilt, blankets, warm clothing"
+				},
+				{
+					"label": "Tracked",
+					"value": "Household by household"
+				}
+			]
+		},
+		{
+			"slug": "health-education",
+			"title": "Health education campaigns",
+			"region": "Pakistan",
+			"summary": "Public awareness work on outbreaks, hygiene, maternal health and vaccination, delivered through mosques, schools and community halls.",
+			"body": [
+				"Most of the illness our doctors see in the field was preventable. Clean water handling, hand hygiene, recognising the warning signs in a sick infant and knowing when a fever needs a clinic rather than a home remedy are key aspects of health education.",
+				"We run campaigns through the institutions people already trust, mosques, schools and community elders, in the language they actually speak, and we return to the same places so the message is not a one off visit."
+			],
+			"image": "/media/brand/health-campaign.jpg",
+			"gallery": [
+				"/media/brand/community-gathering.jpg"
+			],
+			"accent": "magenta",
+			"highlights": [
+				{
+					"label": "Channels",
+					"value": "Mosques, schools, community"
+				},
+				{
+					"label": "Topics",
+					"value": "Outbreaks, hygiene, maternal health"
+				},
+				{
+					"label": "Method",
+					"value": "Repeat visits, local language"
+				}
+			]
+		},
+		{
+			"slug": "professional-development",
+			"title": "Professional development",
+			"region": "Pakistan",
+			"summary": "Continuing education for Muslim healthcare professionals, and the ethical grounding that sits underneath the clinical work.",
+			"body": [
+				"Our founding purpose is not only to treat people. It is to form healthcare professionals whose conduct at home and abroad reflects the faith they profess, and who understand that the way a patient is spoken to is part of the treatment.",
+				"Muslim Medical Mission provides continuing education, mentoring and study sessions for students, junior doctors and practising healthcare professionals. The programme also includes Islamic medical ethics as part of MMM's approach to professional development."
+			],
+			"image": "/media/field/pillar-c-conference-01.jpg",
+			"gallery": [
+				"/media/field/pillar-c-conference-02.jpg",
+				"/media/field/pillar-c-conference-03.jpg",
+				"/media/field/pillar-c-conference-04.jpg"
+			],
+			"accent": "navy",
+			"highlights": [
+				{
+					"label": "For",
+					"value": "Students and practising clinicians"
+				},
+				{
+					"label": "Includes",
+					"value": "CPD, mentoring, ethics"
+				},
+				{
+					"label": "Purpose",
+					"value": "Succession, not dependency"
+				}
+			]
+		},
+		{
+			"slug": "save-vision",
+			"title": "Save Vision",
+			"region": "Pakistan",
+			"summary": "Save Vision provides basic eye screening at medical camps, distributes reading glasses where needed, and refers patients requiring cataract surgery to partner hospitals for further treatment.",
+			"body": [
+				"Save Vision provides basic eye screening at medical camps, distributes reading glasses where needed, and refers patients requiring cataract surgery to partner hospitals for further treatment."
+			],
+			"image": "/media/field/free-medical-camp-doctors.jpg",
+			"gallery": [
+				"/media/field/surgical-camp-rajanpur.jpg"
+			],
+			"accent": "cyan",
+			"highlights": [
+				{
+					"label": "Screening",
+					"value": "At medical camps"
+				},
+				{
+					"label": "Reading glasses",
+					"value": "Distributed on site"
+				},
+				{
+					"label": "Cataract surgery",
+					"value": "Referred to partner hospitals"
+				}
+			]
+		},
+		{
+			"slug": "prison-healthcare",
+			"title": "Medical care in prisons",
+			"region": "Pakistan",
+			"summary": "Muslim Medical Mission provides scheduled medical care in correctional facilities, including clinical consultations, basic treatment, communicable disease screening, and hospital referrals when further care is required.",
+			"body": [
+				"Muslim Medical Mission provides scheduled medical care in correctional facilities, including clinical consultations, basic treatment, communicable disease screening, and hospital referrals when further care is required."
+			],
+			"image": "/media/field/surgical-camp-kotlakhpat.jpg",
+			"gallery": [
+				"/media/field/field-tent-clinic.jpg"
+			],
+			"accent": "navy",
+			"highlights": [
+				{
+					"label": "Clinical consultations",
+					"value": "Scheduled rounds in correctional facilities"
+				},
+				{
+					"label": "Basic treatment",
+					"value": "On-site care provided"
+				},
+				{
+					"label": "Referrals",
+					"value": "When further care is required"
+				}
+			]
+		},
+		{
+			"slug": "training",
+			"title": "Paramedic and First Responder Training",
+			"region": "Pakistan",
+			"summary": "Skilled hands in the first critical minutes.",
+			"body": [
+				"In most of the districts we work in, the first person to reach an injured patient is not an ambulance crew. It is a neighbour, a teacher, a shopkeeper. What that person does in the first few minutes can decide whether someone lives. Muslim Medical Mission trains volunteers to keep an airway open, stop a bleed, move a patient safely and hold a scene together until a doctor arrives.",
+				"Every course ends with a practical assessment, not a certificate for simply turning up. Those who pass join our standing response teams, ready to deploy when floods, earthquakes or other disasters strike.",
+				"<h2 class=\"mt-10 font-display text-[1.5rem] font-extrabold text-[#003475]\">Our training courses</h2>",
+				"<p><strong>Basic Resuscitation (CPR)</strong><br>Restarting the heart and breathing, step by step</p>",
+				"<p><strong>Emergency Trauma Response</strong><br>Controlling bleeding, managing fractures and moving patients safely</p>",
+				"<p><strong>First Responder Training</strong><br>The core skills to act with confidence at any emergency scene</p>",
+				"<p><strong>Disaster Response Training</strong><br>Working as a team in floods, earthquakes and mass emergencies</p>",
+				"<p><strong>Triage Training</strong><br>Deciding who needs help first when there are many casualties</p>",
+				"Every trained volunteer is one more person who knows what to do when it matters most."
+			],
+			"image": "/media/field/bls-rescue-1122.jpg",
+			"gallery": [
+				"/media/field/first-aid-workshop-table.jpg",
+				"/media/field/iv-fluid-therapy-station.jpg",
+				"/media/field/bls-lecture-hall.jpg"
+			],
+			"accent": "blue",
+			"highlights": [
+				{
+					"label": "Ends with",
+					"value": "A practical assessment, not attendance"
+				},
+				{
+					"label": "Leads to",
+					"value": "District response teams ready to deploy"
+				}
+			]
+		}
+	],
+	"givingTiers": [
+		{
+			"amount": "3,000",
+			"title": "Five patients seen",
+			"body": "Consultation, diagnosis and a full course of medicine for five people at a rural camp.",
+			"accent": "blue"
+		},
+		{
+			"amount": "9,000",
+			"title": "One family kept warm",
+			"body": "A winter package of quilt, blankets and warm clothing for a household living under canvas.",
+			"accent": "navy"
+		},
+		{
+			"amount": "12,000",
+			"title": "A family fed for a month",
+			"body": "A full food parcel for a displaced household, built around what can be cooked in a shelter.",
+			"accent": "magenta"
+		},
+		{
+			"amount": "45,000",
+			"title": "A water tanker delivered",
+			"body": "Clean drinking water trucked into a displacement camp where the mains no longer run.",
+			"accent": "cyan"
+		}
+	],
+	"allocation": [
+		{
+			"label": "Direct programme delivery",
+			"value": 88
+		},
+		{
+			"label": "Logistics and field transport",
+			"value": 8
+		},
+		{
+			"label": "Administration",
+			"value": 4
+		}
+	],
+	"reports": [
+		{
+			"slug": "one-million-patients",
+			"title": "More than 1,000,000 patients given free consultation and medicine",
+			"place": "Punjab, AJK, Karachi, Tharparkar, Sindh, Balochistan & Gilgit-Baltistan",
+			"kind": "Medical Camps",
+			"excerpt": "Free medical camps are held in various cities and towns according to a preset schedule. Local population is also involved for logistic support. A special focus is put on underdeveloped districts and rural areas. In addition to Punjab we have successfully organized free medical camps in Azad Jammu and Kashmir, Karachi, Tharparkar, interior Sindh, Balochistan and Gilgit Baltistan.",
+			"body": [
+				"Free medical camps are held in various cities and towns according to a preset schedule. Local population is also involved for logistic support. A special focus is put on underdeveloped districts and rural areas, where a district hospital may be a full day's journey away and the cost of a single consultation can be more than a family earns in a week.",
+				"In addition to Punjab we have successfully organized free medical camps in Azad Jammu and Kashmir, Karachi, Tharparkar, interior Sindh, Balochistan and Gilgit Baltistan. Each camp runs on the same discipline: a standing drug list, a volunteer clinical team, and a record of every patient seen so the next deployment is better planned than the last.",
+				"The one-million mark is not a fundraising claim. It is the running count of consultations logged across two decades of camps, each one free at the point of delivery and each one recorded so that the number can be checked rather than assumed."
+			],
+			"image": "/media/field/pillar-a-camp-04.jpg",
+			"date": "2026"
+		},
+		{
+			"slug": "taunsa-flood-response",
+			"title": "Emergency boat deployment and medical relief along the rising Indus",
+			"place": "Taunsa Sharif, Dera Ghazi Khan",
+			"kind": "Disaster Response",
+			"excerpt": "Rapid response disaster teams led by senior clinicians mobilized emergency relief boats, setting up frontline triage and treating waterborne illnesses where roads had washed out.",
+			"body": [
+				"When the Indus broke its banks around Taunsa Sharif, the roads went first. Villages that had been reachable by metalled road the week before were islands, and the families who had not evacuated were cut off from the nearest functioning clinic.",
+				"Our rapid response teams, led by senior clinicians, mobilized emergency relief boats to reach households the water had isolated. On the far bank they set up frontline triage, treating waterborne illness, wound infection and the chronic conditions that had gone unmedicated since the water rose.",
+				"The operation ran on the same logic as every deployment: assessment before procurement, local volunteers who know which households are quietly going without, and a record of every patient treated so the response can be measured rather than described."
+			],
+			"image": "/media/field/hero-disaster-response.jpg",
+			"date": "2022"
+		},
+		{
+			"slug": "surgical-camp-central-jail",
+			"title": "Free Surgical Camp at Central Jail Kot Lakhpat and District Facilities",
+			"place": "Kot Lakhpat, Lahore",
+			"kind": "Surgical Mission",
+			"excerpt": "Volunteer consultant surgeons conducted vital procedures and provided specialized medication for incarcerated and underprivileged patients who otherwise had zero access to surgery.",
+			"body": [
+				"Prisoners are among the least visible patients in the country. Overcrowding turns a single case of tuberculosis or hepatitis into an outbreak, and routine complaints go unexamined for months. For a patient who needs surgery, the barrier is higher still: no family to arrange it, no money to pay for it, and no way to reach a theatre.",
+				"Our volunteer consultant surgeons conducted vital procedures inside Central Jail Kot Lakhpat and at district facilities, providing specialized medication for incarcerated and underprivileged patients who otherwise had zero access to surgery.",
+				"The work is unglamorous and it is precisely the work our mission asks of us. Every procedure is recorded, every patient followed through recovery, and the same teams return on a schedule so that care is continuous rather than a one-off visit."
+			],
+			"image": "/media/field/surgical-camp-kotlakhpat.jpg",
+			"date": "2025"
+		},
+		{
+			"slug": "bls-rescue-1122",
+			"title": "Emergency First Responder Training in collaboration with Punjab Rescue 1122",
+			"place": "Lahore & Regional Hubs",
+			"kind": "Responders Training",
+			"excerpt": "Hands-on trauma management, BLS, haemorrhage control, and disaster triage workshops training volunteers to act as certified lifesavers in emergencies.",
+			"body": [
+				"In most of the districts we work in, the first person to reach a casualty is not an ambulance crew. It is a neighbour. Training that neighbour properly is valuable for emergency response.",
+				"In collaboration with Punjab Emergency Service Rescue 1122, our courses cover hands-on trauma management, basic life support, haemorrhage control, fracture management and disaster triage. They end with an assessment rather than a certificate handed out for attendance.",
+				"Graduates form the standing teams that deploy when a district floods. The training turns everyday volunteers into certified lifesavers, ready to hold a scene, stop a bleed and keep an airway open until a doctor arrives."
+			],
+			"image": "/media/field/bls-rescue-1122.jpg",
+			"date": "2025"
+		},
+		{
+			"slug": "gaza-food-parcels-and-hot-meals",
+			"title": "Food parcels and hot meals for displaced families in Gaza",
+			"place": "Gaza",
+			"kind": "Food Distribution",
+			"excerpt": "Family food parcels are delivered to displaced households, with hot meals provided where families have no way to cook.",
+			"body": [
+				"A displaced family living in a tent has no reliable way to store or cook food. Parcels are built around what a household can prepare, and where nothing can be prepared, meals are cooked and delivered ready to eat.",
+				"Food parcels are distributed household by household, while hot meals are cooked in bulk and served on a fixed rota. These two approaches help reach families facing different conditions in displacement shelters."
+			],
+			"image": "/media/gaza-food/gaza-food-01.jpg",
+			"date": "Ongoing"
+		}
+	],
+	"means": [
+		"Service to humanity without any discrimination of gender or genetics, race or religion, geography or generation, and time or era.",
+		"Human resource development for peace and disaster.",
+		"Developing and practicing medical science and technology for peace."
+	],
+	"regions": [
+		{
+			"name": "All Over Pakistan",
+			"detail": "",
+			"focus": ""
+		}
+	],
+	"gallery": [
+		{
+			"src": "/media/field/bls-rescue-1122.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/surgical-camp-kotlakhpat.jpg",
+			"group": "field",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/surgical-camp-rajanpur.jpg",
+			"group": "field",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/free-medical-camp-doctors.jpg",
+			"group": "field",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/free-medical-camp-medicines.jpg",
+			"group": "field",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/free-medical-camp-queue.jpg",
+			"group": "field",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/cme-medical-symposium.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/national-conference-stage.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/national-conference-audience.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/conference-awards-ceremony.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/future-healers-mentorship.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/first-aid-workshop-table.jpg",
+			"group": "field",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/hero-disaster-response.jpg",
+			"group": "field",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/hero-national-conference.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/disaster/disaster-01.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/disaster/disaster-02.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/disaster/disaster-03.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/disaster/disaster-04.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/disaster/disaster-05.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/disaster/disaster-06.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/disaster/disaster-07.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/disaster/disaster-08.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/disaster/disaster-09.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/disaster/disaster-10.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/disaster/disaster-11.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/disaster/disaster-12.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/disaster/disaster-13.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/disaster/disaster-14.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/disaster/disaster-15.jpeg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/medical/medical-01.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-02.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-03.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-04.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-05.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-06.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-07.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-08.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-09.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-10.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-11.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-12.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-13.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-14.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-15.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-16.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-17.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-18.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-19.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-20.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-21.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-22.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-23.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-24.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-25.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-26.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-27.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-28.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-29.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-30.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-31.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-32.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-33.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-34.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-35.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-36.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-37.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-38.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-39.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-40.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-41.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-42.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-43.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-44.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-45.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-46.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-47.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-48.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-49.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/medical/medical-50.jpg",
+			"group": "medical",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/ration/ration-02.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/ration/ration-03.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/ration/ration-04.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/ration/ration-05.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/ration/ration-06.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/ration/ration-07.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/ration/ration-08.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/ration/ration-09.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/ration/ration-10.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/ration/ration-11.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/ration/ration-12.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/ration/ration-13.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/ration/ration-14.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/ration/ration-16.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/ration/ration-17.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-01.png",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-02.png",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-03.png",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-04.png",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-05.png",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-06.png",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-07.png",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-08.png",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-09.png",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-10.png",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-11.png",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-12.png",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-13.png",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-water/gaza-water-01.jpg",
+			"group": "gaza-water",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-water/gaza-water-02.webp",
+			"group": "gaza-water",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-water/gaza-water-03.jpg",
+			"group": "gaza-water",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-water/gaza-water-04.jpg",
+			"group": "gaza-water",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-water/gaza-water-05.jpg",
+			"group": "gaza-water",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-water/gaza-water-06.jpg",
+			"group": "gaza-water",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-water/gaza-water-07.png",
+			"group": "gaza-water",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-water/gaza-water-08.png",
+			"group": "gaza-water",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-water/gaza-water-09.jpg",
+			"group": "gaza-water",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-water/gaza-water-10.jpg",
+			"group": "gaza-water",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-water/gaza-water-11.jpg",
+			"group": "gaza-water",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-water/gaza-water-12.jpg",
+			"group": "gaza-water",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-water/gaza-water-13.jpg",
+			"group": "gaza-water",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-01.png",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-02.png",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-05.png",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-09.png",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/field/pillar-a-camp-01.jpg",
+			"group": "field",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-a-camp-02.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-a-camp-03.jpg",
+			"group": "medical",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-a-camp-04.jpg",
+			"group": "field",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-a-camp-05.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-a-camp-06.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-a-camp-07.jpg",
+			"group": "field",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-a-camp-08.jpg",
+			"group": "field",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-a-camp-09.jpg",
+			"group": "medical",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-a-camp-10.jpg",
+			"group": "medical",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-a-camp-11.jpg",
+			"group": "medical",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-a-camp-12.jpg",
+			"group": "medical",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-a-camp-13.jpg",
+			"group": "medical",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-a-camp-14.jpg",
+			"group": "medical",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-a-camp-15.jpg",
+			"group": "medical",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-a-camp-16.jpg",
+			"group": "disaster",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-01.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-02.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-03.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-04.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-05.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-06.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-07.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-08.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-09.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-10.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-11.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-12.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-13.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-14.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-15.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-16.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-17.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-18.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-19.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-20.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-21.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-22.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-23.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-24.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-25.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-26.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-27.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-28.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-29.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-30.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-31.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-32.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-33.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-34.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-35.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-36.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-37.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-38.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-39.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-40.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-41.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-42.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-43.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-44.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/pillar-c-conference-45.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-01.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-02.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-03.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-04.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-05.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-06.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-07.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-08.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-09.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-10.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-11.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-12.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-13.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-14.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-15.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-16.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-17.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-18.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-19.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-20.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-21.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-22.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-23.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-24.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-25.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-26.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-27.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-28.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-29.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-30.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-31.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-32.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-33.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-food/gaza-food-34.jpg",
+			"group": "gaza-food",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-01.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-02.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-03.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-04.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-05.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-06.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-07.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-08.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-09.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-10.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-11.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-12.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-13.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-14.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-15.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-16.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-17.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/gaza-winter/gaza-winter-18.jpg",
+			"group": "gaza-winter",
+			"region": "Gaza"
+		},
+		{
+			"src": "/media/field/bls-lecture-hall.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/conference-banner-hall.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		},
+		{
+			"src": "/media/field/medical-students-tarbiyah.jpg",
+			"group": "academy-conferences",
+			"region": "Pakistan"
+		}
+	],
+	"galleryGroups": [
+		{
+			"key": "academy-conferences",
+			"label": "MMM Academy & Annual Conferences",
+			"region": "Pakistan"
+		},
+		{
+			"key": "field",
+			"label": "Medical and surgical camps",
+			"region": "Pakistan"
+		},
+		{
+			"key": "disaster",
+			"label": "Pakistan flood response",
+			"region": "Pakistan"
+		},
+		{
+			"key": "medical",
+			"label": "Gaza field clinics",
+			"region": "Gaza"
+		},
+		{
+			"key": "gaza-water",
+			"label": "Water for Life",
+			"region": "Gaza"
+		},
+		{
+			"key": "gaza-food",
+			"label": "Hot meals and parcels",
+			"region": "Gaza"
+		},
+		{
+			"key": "gaza-winter",
+			"label": "Winter Packages",
+			"region": "Gaza"
+		}
+	],
+	"searchIndex": [
+		{
+			"title": "Flood emergency medical camps",
+			"href": "/what-we-do/flood-medical-camps",
+			"section": "Pakistan",
+			"terms": "during flood emergencies, muslim medical mission provides free medical camps in affected communities. teams offer medical consultations, basic treatment, essential medicines, and referrals where further care is needed. during flood emergencies, muslim medical mission provides free medical camps in affected communities. teams offer medical consultations, basic treatment, essential medicines, and referrals where further care is needed. medical camps free in affected communities consultations medical teams provide exams referrals where further care is needed"
+		},
+		{
+			"title": "Flood relief distribution",
+			"href": "/what-we-do/flood-relief",
+			"section": "Pakistan",
+			"terms": "muslim medical mission provides flood relief to affected communities in south punjab and balochistan. support includes staple food, clean drinking water, and cash assistance for households facing significant losses. muslim medical mission provides flood relief to affected communities in south punjab and balochistan. support includes staple food, clean drinking water, and cash assistance for households facing significant losses. regions south punjab and balochistan staple food provided to affected households cash assistance for families facing significant losses"
+		},
+		{
+			"title": "Field clinics in Gaza",
+			"href": "/what-we-do/gaza-field-clinics",
+			"section": "Gaza",
+			"terms": "paramedic and clinical teams running consultations, dressings, dispensing and paediatric care inside shelters and tented clinics. muslim medical mission operates field clinics in gaza, providing consultations, wound care, medicines and paediatric care through paramedic and clinical teams working in shelters and tented treatment areas. teams work in shelter rooms and tented treatment areas, seeing patients with wound care needs, respiratory infections, skin disease, malnutrition and chronic conditions. services include proper dressings, full antibiotic courses, vital sign monitoring and child weight checks, with referrals arranged for care beyond what a tent can hold. everything is carried under one banner, emergency relief from the people of pakistan to the people of gaza, and delivered by pakistani clinicians alongside local staff. delivered by paramedic and clinical teams caseload wounds, infection, paediatrics charge to the patient nothing"
+		},
+		{
+			"title": "Food parcels and hot meals",
+			"href": "/what-we-do/food-parcels-gaza",
+			"section": "Gaza",
+			"terms": "family food parcels handed over at the shelter door, and hot meals cooked and served where families have no way to cook at all. a displaced family living in a tent has no reliable way to store or cook food. two things follow from that. parcels have to be built around what can actually be prepared with what a household has, and where nothing can be prepared, the meal has to arrive cooked. we do both. parcels go out household by household with the recipient recorded, so the same families are not served twice while their neighbours go without. hot meals are cooked in bulk and distributed on a fixed rota so people are not queuing on rumour. one family food parcel pkr 12,000 feeds a household for a month tracked household by household"
+		},
+		{
+			"title": "Water for Life",
+			"href": "/what-we-do/water-for-life",
+			"section": "Gaza",
+			"terms": "water for life clean water disaster emergency pipes break contaminated wells families safe drinking water water tankers relief camps shelters solar water projects pumps no fuel electricity bills filtration plants steady supply safe drinking water lasting water sources disease prevention well pump family village"
+		},
+		{
+			"title": "Winter packages",
+			"href": "/what-we-do/winter-packages",
+			"section": "Gaza",
+			"terms": "quilts, blankets and warm clothing for families living under canvas through a gaza winter. a tent gives shelter from rain and almost nothing against cold. each package contains a heavy quilt, blankets and warm clothing sized for the children in the household. distribution is recorded the same way food is, so coverage can be checked rather than assumed. one winter package pkr 9,000 contains quilt, blankets, warm clothing tracked household by household"
+		},
+		{
+			"title": "Health education campaigns",
+			"href": "/what-we-do/health-education",
+			"section": "Pakistan",
+			"terms": "public awareness work on outbreaks, hygiene, maternal health and vaccination, delivered through mosques, schools and community halls. most of the illness our doctors see in the field was preventable. clean water handling, hand hygiene, recognising the warning signs in a sick infant and knowing when a fever needs a clinic rather than a home remedy are key aspects of health education. we run campaigns through the institutions people already trust, mosques, schools and community elders, in the language they actually speak, and we return to the same places so the message is not a one off visit. channels mosques, schools, community topics outbreaks, hygiene, maternal health method repeat visits, local language"
+		},
+		{
+			"title": "Professional development",
+			"href": "/what-we-do/professional-development",
+			"section": "Pakistan",
+			"terms": "continuing education for muslim healthcare professionals, and the ethical grounding that sits underneath the clinical work. our founding purpose is not only to treat people. it is to form healthcare professionals whose conduct at home and abroad reflects the faith they profess, and who understand that the way a patient is spoken to is part of the treatment. muslim medical mission provides continuing education, mentoring and study sessions for students, junior doctors and practising healthcare professionals. the programme also includes islamic medical ethics as part of mmm's approach to professional development. for students and practising clinicians includes cpd, mentoring, ethics purpose succession, not dependency"
+		},
+		{
+			"title": "Save Vision",
+			"href": "/what-we-do/save-vision",
+			"section": "Pakistan",
+			"terms": "save vision clearer sight closer to home poor eyesight eye examination reading glasses fitted on the spot cataract surgery free of cost more than 3000 sight restored medical camps field hospitals specialist treatment"
+		},
+		{
+			"title": "Medical care in prisons",
+			"href": "/what-we-do/prison-healthcare",
+			"section": "Pakistan",
+			"terms": "muslim medical mission provides scheduled medical care in correctional facilities, including clinical consultations, basic treatment, communicable disease screening, and hospital referrals when further care is required. muslim medical mission provides scheduled medical care in correctional facilities, including clinical consultations, basic treatment, communicable disease screening, and hospital referrals when further care is required. clinical consultations scheduled rounds in correctional facilities basic treatment on-site care provided referrals when further care is required"
+		},
+		{
+			"title": "Paramedic and First Responder Training",
+			"href": "/what-we-do/training",
+			"section": "Pakistan",
+			"terms": "paramedic and first responder training skilled hands first critical minutes injured patient neighbour teacher shopkeeper keep airway open stop bleed move patient safely hold scene together practical assessment standing response teams floods earthquakes disasters basic resuscitation cpr emergency trauma response fracture management first responder disaster response triage courses"
+		},
+		{
+			"title": "More than 1,000,000 patients given free consultation and medicine",
+			"href": "/media/one-million-patients",
+			"section": "Medical Camps",
+			"terms": "punjab, ajk, karachi, tharparkar, sindh, balochistan & gilgit-baltistan free medical camps are held in various cities and towns according to a preset schedule. local population is also involved for logistic support. a special focus is put on underdeveloped districts and rural areas. in addition to punjab we have successfully organized free medical camps in azad jammu and kashmir, karachi, tharparkar, interior sindh, balochistan and gilgit baltistan. free medical camps are held in various cities and towns according to a preset schedule. local population is also involved for logistic support. a special focus is put on underdeveloped districts and rural areas, where a district hospital may be a full day's journey away and the cost of a single consultation can be more than a family earns in a week. in addition to punjab we have successfully organized free medical camps in azad jammu and kashmir, karachi, tharparkar, interior sindh, balochistan and gilgit baltistan. each camp runs on the same discipline: a standing drug list, a volunteer clinical team, and a record of every patient seen so the next deployment is better planned than the last. the one-million mark is not a fundraising claim. it is the running count of consultations logged across two decades of camps, each one free at the point of delivery and each one recorded so that the number can be checked rather than assumed. medical camps"
+		},
+		{
+			"title": "Emergency boat deployment and medical relief along the rising Indus",
+			"href": "/media/taunsa-flood-response",
+			"section": "Disaster Response",
+			"terms": "taunsa sharif, dera ghazi khan rapid response disaster teams led by senior clinicians mobilized emergency relief boats, setting up frontline triage and treating waterborne illnesses where roads had washed out. when the indus broke its banks around taunsa sharif, the roads went first. villages that had been reachable by metalled road the week before were islands, and the families who had not evacuated were cut off from the nearest functioning clinic. our rapid response teams, led by senior clinicians, mobilized emergency relief boats to reach households the water had isolated. on the far bank they set up frontline triage, treating waterborne illness, wound infection and the chronic conditions that had gone unmedicated since the water rose. the operation ran on the same logic as every deployment: assessment before procurement, local volunteers who know which households are quietly going without, and a record of every patient treated so the response can be measured rather than described. disaster response"
+		},
+		{
+			"title": "Free Surgical Camp at Central Jail Kot Lakhpat and District Facilities",
+			"href": "/media/surgical-camp-central-jail",
+			"section": "Surgical Mission",
+			"terms": "kot lakhpat, lahore volunteer consultant surgeons conducted vital procedures and provided specialized medication for incarcerated and underprivileged patients who otherwise had zero access to surgery. prisoners are among the least visible patients in the country. overcrowding turns a single case of tuberculosis or hepatitis into an outbreak, and routine complaints go unexamined for months. for a patient who needs surgery, the barrier is higher still: no family to arrange it, no money to pay for it, and no way to reach a theatre. our volunteer consultant surgeons conducted vital procedures inside central jail kot lakhpat and at district facilities, providing specialized medication for incarcerated and underprivileged patients who otherwise had zero access to surgery. the work is unglamorous and it is precisely the work our mission asks of us. every procedure is recorded, every patient followed through recovery, and the same teams return on a schedule so that care is continuous rather than a one-off visit. surgical mission"
+		},
+		{
+			"title": "Emergency First Responder Training in collaboration with Punjab Rescue 1122",
+			"href": "/media/bls-rescue-1122",
+			"section": "Responders Training",
+			"terms": "lahore & regional hubs hands-on trauma management, bls, haemorrhage control, and disaster triage workshops training volunteers to act as certified lifesavers in emergencies. in most of the districts we work in, the first person to reach a casualty is not an ambulance crew. it is a neighbour. training that neighbour properly is valuable for emergency response. in collaboration with punjab emergency service rescue 1122, our courses cover hands-on trauma management, basic life support, haemorrhage control, fracture management and disaster triage. they end with an assessment rather than a certificate handed out for attendance. graduates form the standing teams that deploy when a district floods. the training turns everyday volunteers into certified lifesavers, ready to hold a scene, stop a bleed and keep an airway open until a doctor arrives. responders training"
+		},
+		{
+			"title": "Food parcels and hot meals for displaced families in Gaza",
+			"href": "/media/gaza-food-parcels-and-hot-meals",
+			"section": "Food Distribution",
+			"terms": "gaza family food parcels are delivered to displaced households, with hot meals provided where families have no way to cook. a displaced family living in a tent has no reliable way to store or cook food. parcels are built around what a household can prepare, and where nothing can be prepared, meals are cooked and delivered ready to eat. food parcels are distributed household by household, while hot meals are cooked in bulk and served on a fixed rota. these two approaches help reach families facing different conditions in displacement shelters. food distribution"
+		},
+		{
+			"title": "All Over Pakistan",
+			"href": "/about#reach",
+			"section": "Where we work",
+			"terms": "free medical camps, disaster relief, professional training and healthcare outreach for underserved communities across pakistan."
+		},
+		{
+			"title": "Gaza",
+			"href": "/about#reach",
+			"section": "Where we work",
+			"terms": "food, water, medical services and other essential relief for communities affected by the crisis in gaza."
+		},
+		{
+			"title": "Our means",
+			"href": "/about#means",
+			"section": "About",
+			"terms": "service to humanity without any discrimination of gender or genetics, race or religion, geography or generation, and time or era. human resource development for peace and disaster. developing and practicing medical science and technology for peace."
+		},
+		{
+			"title": "Five patients seen",
+			"href": "/donate",
+			"section": "What a donation buys",
+			"terms": "3,000 consultation, diagnosis and a full course of medicine for five people at a rural camp."
+		},
+		{
+			"title": "One family kept warm",
+			"href": "/donate",
+			"section": "What a donation buys",
+			"terms": "9,000 a winter package of quilt, blankets and warm clothing for a household living under canvas."
+		},
+		{
+			"title": "A family fed for a month",
+			"href": "/donate",
+			"section": "What a donation buys",
+			"terms": "12,000 a full food parcel for a displaced household, built around what can be cooked in a shelter."
+		},
+		{
+			"title": "A water tanker delivered",
+			"href": "/donate",
+			"section": "What a donation buys",
+			"terms": "45,000 clean drinking water trucked into a displacement camp where the mains no longer run."
+		},
+		{
+			"title": "MMM Academy & Surgical Camps",
+			"href": "/media#gallery",
+			"section": "Photo library",
+			"terms": "mmm academy & surgical camps pakistan"
+		},
+		{
+			"title": "Pakistan flood response",
+			"href": "/media#gallery",
+			"section": "Photo library",
+			"terms": "pakistan flood response pakistan"
+		},
+		{
+			"title": "Gaza field clinics",
+			"href": "/media#gallery",
+			"section": "Photo library",
+			"terms": "gaza field clinics gaza"
+		},
+		{
+			"title": "Gaza food parcels",
+			"href": "/media#gallery",
+			"section": "Photo library",
+			"terms": "gaza food parcels gaza"
+		},
+		{
+			"title": "Hot meals and parcels",
+			"href": "/media#gallery",
+			"section": "Photo library",
+			"terms": "hot meals and parcels gaza"
+		},
+		{
+			"title": "Water for Life",
+			"href": "/media#gallery",
+			"section": "Photo library",
+			"terms": "water for life gaza"
+		},
+		{
+			"title": "Winter packages",
+			"href": "/media#gallery",
+			"section": "Photo library",
+			"terms": "winter packages gaza"
+		},
+		{
+			"title": "Who we are",
+			"href": "/about",
+			"section": "About",
+			"terms": "history mission vision means values founded 2005 kashmir earthquake lahore volunteer network muslim healthcare professionals timeline"
+		},
+		{
+			"title": "Where we work",
+			"href": "/about#reach",
+			"section": "About",
+			"terms": "punjab sindh balochistan khyber pakhtunkhwa gaza districts regions lahore tharparkar chitral gilgit baltistan azad jammu kashmir dera ghazi khan"
+		},
+		{
+			"title": "What we do",
+			"href": "/what-we-do",
+			"section": "Programmes",
+			"terms": "programmes projects camps relief water food winter training education clinics surgery"
+		},
+		{
+			"title": "Disaster response",
+			"href": "/disaster-response",
+			"section": "Response",
+			"terms": "flood emergency indus taunsa dera ghazi khan mangrotha deployment phases assessment clinic clean water ration first 24 hours"
+		},
+		{
+			"title": "Donate",
+			"href": "/donate",
+			"section": "Give",
+			"terms": "donate sadaqah bank transfer iban ubl jazzcash easypaisa unit cost giving donation"
+		},
+		{
+			"title": "How your donation is spent",
+			"href": "/donate#allocation",
+			"section": "Give",
+			"terms": "allocation transparency overhead administration percentage accountability where money goes"
+		},
+		{
+			"title": "Zakat Calculator",
+			"href": "/zakat-calculator",
+			"section": "Give",
+			"terms": "zakat calculator calculate 2.5 percent nisab eligible amount pkrupee"
+		},
+		{
+			"title": "Volunteer with us",
+			"href": "/get-involved",
+			"section": "Take part",
+			"terms": "doctor nurse dentist physiotherapist pharmacist paramedic student deployment join team membership aims benefits"
+		},
+		{
+			"title": "Partner with us",
+			"href": "/get-involved#partners",
+			"section": "Take part",
+			"terms": "hospital supplier pharmaceutical mosque company foundation partnership institutional corporate"
+		},
+		{
+			"title": "Field reports",
+			"href": "/media",
+			"section": "Media",
+			"terms": "news updates deployments stories reports field logs"
+		},
+		{
+			"title": "Photo library",
+			"href": "/media#gallery",
+			"section": "Media",
+			"terms": "photographs gallery images pictures photos"
+		},
+		{
+			"title": "Video",
+			"href": "/media#video",
+			"section": "Media",
+			"terms": "video documentaries youtube gaza ramadan hot meal clean water bread relief campaign"
+		},
+		{
+			"title": "Live social feed",
+			"href": "/#social-feed",
+			"section": "Media",
+			"terms": "social feed live youtube facebook instagram x twitter whatsapp channel updates"
+		},
+		{
+			"title": "Contact",
+			"href": "/contact",
+			"section": "About",
+			"terms": "phone whatsapp email address model town lahore bank receipt"
+		}
+	]
+}

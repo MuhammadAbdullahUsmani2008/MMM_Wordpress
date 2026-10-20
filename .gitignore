@@ -1,0 +1,14 @@
+# Local/working artifacts — not part of the project source
+_audit/
+.backup/
+.freebuff/
+__pycache__/
+*.pyc
+node_modules/
+*.log
+
+# Environment / secrets — only .env.example is committed
+.env
+.env.local
+*.env
+!*.env.example

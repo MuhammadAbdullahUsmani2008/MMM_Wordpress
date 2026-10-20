@@ -1,0 +1,84 @@
+/*
+Theme Name: MMM — Muslim Medical Mission
+Theme URI: https://mmm.org.pk
+Author: Muslim Medical Mission
+Description: Pixel-faithful WordPress port of the Muslim Medical Mission site. The design, CSS and component markup are reproduced exactly from the original Next.js build; content is sourced from WordPress.
+Version: 1.0.0
+Requires at least: 6.4
+Requires PHP: 8.0
+License: GPL-2.0-or-later
+Text Domain: mmm
+*/
+
+/*
+ * This theme intentionally ships almost no CSS of its own.
+ * The compiled stylesheet from the original build is enqueued from
+ * assets/css/, together with the original webfonts in assets/fonts/.
+ * Keep overrides here limited to targeted integrations and fixes.
+ */
+
+@media (max-width: 639px) {
+	#social-feed.mmm-curator-mobile .crt-feed-window {
+		height: auto !important;
+		overflow: visible !important;
+	}
+
+	#social-feed.mmm-curator-mobile .mmm-curator-feed .crt-grid-post,
+	#social-feed.mmm-curator-mobile .mmm-curator-feed .crt-post {
+		box-sizing: border-box;
+		overflow: hidden;
+		border: 1px solid #dce2ea !important;
+		border-radius: 12px !important;
+	}
+
+	#social-feed.mmm-curator-mobile .mmm-curator-feed .crt-post-c {
+		position: relative;
+		overflow: hidden;
+	}
+
+	#social-feed.mmm-curator-mobile .mmm-curator-feed .crt-grid-post-content {
+		padding-bottom: 0 !important;
+	}
+
+	#social-feed.mmm-curator-mobile .mmm-curator-feed .crt-grid-post-image {
+		height: 100px !important;
+		min-height: 100px !important;
+		flex-basis: 100px !important;
+	}
+
+	#social-feed.mmm-curator-mobile .mmm-curator-feed .crt-post-hover {
+		position: absolute !important;
+		inset: auto 0 0 !important;
+		height: 60% !important;
+		max-height: 60% !important;
+		overflow-y: auto !important;
+		background: #fff !important;
+		opacity: 1 !important;
+		transform: none !important;
+		visibility: visible !important;
+	}
+
+	#social-feed.mmm-curator-mobile .mmm-curator-feed .crt-post-hover > div {
+		height: 100%;
+		min-height: 0;
+		overflow-y: auto;
+	}
+
+	#social-feed.mmm-curator-mobile .mmm-curator-feed .crt-post-title {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		overflow: hidden;
+		margin: 4px 8px 2px !important;
+		padding: 0 !important;
+	}
+
+	#social-feed.mmm-curator-mobile .mmm-curator-feed .crt-post-footer {
+		position: static !important;
+		flex: none !important;
+	}
+
+	#social-feed.mmm-curator-mobile .mmm-curator-load-more-container {
+		margin-top: 12px;
+	}
+}
