@@ -12,3 +12,6 @@ node_modules/
 .env.local
 *.env
 !*.env.example
+
+# Live-site backups (contain the live database) — never commit
+live-backup-*/

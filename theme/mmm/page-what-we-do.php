@@ -78,7 +78,7 @@ if ( ! function_exists( 'mmm_program_category' ) ) {
 // The original <head> preloaded the logo (header.php) plus this hero image.
 mmm_hero_preload( '/media/field/hero-humanitarian-relief.jpg' );
 
-$mmm_hero_title = mmm_copy( 'what-we-do', 'hero_title', 'Eleven programmes, run by people who show up in person' );
+$mmm_hero_title = mmm_copy( 'what-we-do', 'hero_title', 'Eleven programmes, delivered in person' );
 
 // Region groups, in the original order; groups with no programmes are skipped.
 $mmm_groups = array(
@@ -102,7 +102,7 @@ get_header();
 </ol>
 </nav>
 <h1 class="mt-5 max-w-3xl font-display text-[clamp(2.15rem,3.8vw,3.15rem)] leading-[1.08] font-black text-[#0A1020] tracking-tight"><?php echo mmm_text( $mmm_hero_title ); ?></h1>
-<p class="mt-4 max-w-2xl text-[1.05rem] leading-relaxed text-[#4B5563] sm:text-[1.14rem]"><?php echo mmm_text( mmm_copy( 'what-we-do', 'hero_lead', 'Each one exists because a team came back from a district and said the thing we were doing was not enough. None of them charge a patient anything.' ) ); ?></p>
+<p class="mt-4 max-w-2xl text-[1.05rem] leading-relaxed text-[#4B5563] sm:text-[1.14rem]"><?php echo mmm_text( mmm_copy( 'what-we-do', 'hero_lead', 'Each programme was established in response to needs our field teams identified on the ground. All services are provided free of charge to patients.' ) ); ?></p>
 </div>
 </header>
 
