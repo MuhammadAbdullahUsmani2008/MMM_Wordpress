@@ -261,3 +261,126 @@ function mmm_accent( $accent ) {
 function mmm_e( $text ) {
 	return htmlspecialchars( (string) $text, ENT_QUOTES, 'UTF-8' );
 }
+
+/**
+ * Home page: tabbed social feeds (Smash Balloon free plugins).
+ *
+ * One tab per platform, in the same order as the "Follow Muslim Medical Mission
+ * in the Field" cards. A tab only appears once its plugin is active and a feed has been
+ * created in it, and nothing is printed until at least one feed exists.
+ */
+function mmm_social_feed_tabs() {
+	global $wpdb;
+
+	// Tab order: Facebook, YouTube, Instagram, X. "table" is where each plugin stores the feeds created in its "All Feeds" screen.
+	$tabs = array(
+		'facebook'  => array(
+			'label'     => 'Facebook',
+			'shortcode' => 'custom-facebook-feed',
+			'table'     => 'cff_feeds',
+		),
+		'youtube'   => array(
+			'label'     => 'YouTube',
+			'shortcode' => 'youtube-feed',
+			'table'     => 'sby_feeds',
+		),
+		'instagram' => array(
+			'label'     => 'Instagram',
+			'shortcode' => 'instagram-feed',
+			'table'     => 'sbi_feeds',
+		),
+		'x'         => array(
+			'label'     => 'X',
+			'shortcode' => 'custom-twitter-feeds',
+			'table'     => 'ctf_feeds',
+		),
+	);
+
+	// Keep a tab only when its plugin is active and a feed exists; show that plugin's first feed.
+	foreach ( $tabs as $key => $tab ) {
+		$feed_id = 0;
+		if ( shortcode_exists( $tab['shortcode'] ) ) {
+			$table = $wpdb->prefix . $tab['table'];
+			// phpcs:ignore WordPress.DB.DirectDatabaseQuery
+			if ( $wpdb->get_var( $wpdb->prepare( 'SHOW TABLES LIKE %s', $wpdb->esc_like( $table ) ) ) === $table ) {
+				// phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+				$feed_id = (int) $wpdb->get_var( "SELECT id FROM `{$table}` ORDER BY id ASC LIMIT 1" );
+			}
+		}
+		if ( $feed_id > 0 ) {
+			$tabs[ $key ]['feed'] = $feed_id;
+		} else {
+			unset( $tabs[ $key ] );
+		}
+	}
+
+	if ( empty( $tabs ) ) {
+		return;
+	}
+
+	$first = key( $tabs );
+
+	echo '<div class="mmm-feed-tabs" data-mmm-feed-tabs><div class="mmm-feed-tabs__list" role="tablist" aria-label="Social media feeds">';
+	foreach ( $tabs as $key => $tab ) {
+		printf(
+			'<button type="button" role="tab" class="mmm-feed-tabs__tab" id="mmm-feed-tab-%1$s" aria-controls="mmm-feed-panel-%1$s" aria-selected="%2$s" tabindex="%3$s">%4$s</button>',
+			esc_attr( $key ),
+			$key === $first ? 'true' : 'false',
+			$key === $first ? '0' : '-1',
+			esc_html( $tab['label'] )
+		);
+	}
+	echo '</div>';
+	foreach ( $tabs as $key => $tab ) {
+		printf(
+			'<div role="tabpanel" class="mmm-feed-tabs__panel" id="mmm-feed-panel-%1$s" aria-labelledby="mmm-feed-tab-%1$s"%2$s>',
+			esc_attr( $key ),
+			$key === $first ? '' : ' hidden'
+		);
+		echo do_shortcode( sprintf( '[%s feed=%d]', $tab['shortcode'], $tab['feed'] ) );
+		echo '</div>';
+	}
+	echo '</div>';
+	?>
+<style>
+.mmm-feed-tabs{margin-top:2rem;width:100%;min-width:0}
+.mmm-feed-tabs__list{display:flex;gap:.5rem;overflow-x:auto;border-bottom:1px solid #DCE2EA;padding-bottom:.75rem}
+.mmm-feed-tabs__tab{flex:0 0 auto;border:1px solid #DCE2EA;border-radius:9999px;background:#F5F7FA;color:#334155;font-weight:700;font-size:.92rem;line-height:1;padding:.7rem 1.15rem;cursor:pointer;transition:background-color .2s,color .2s,border-color .2s}
+.mmm-feed-tabs__tab:hover{border-color:#075BD6;color:#075BD6;background:#fff}
+.mmm-feed-tabs__tab[aria-selected="true"]{background:#075BD6;border-color:#075BD6;color:#fff}
+.mmm-feed-tabs__tab:focus-visible{outline:2px solid #075BD6;outline-offset:2px}
+.mmm-feed-tabs__panel{margin-top:1.5rem;min-width:0}
+.mmm-feed-tabs__panel[hidden]{display:none}
+</style>
+<script>
+(function(){
+	var root=document.querySelector('[data-mmm-feed-tabs]');
+	if(!root){return;}
+	var tabs=[].slice.call(root.querySelectorAll('[role="tab"]'));
+	function select(tab,focus){
+		tabs.forEach(function(t){
+			var on=t===tab;
+			t.setAttribute('aria-selected',on?'true':'false');
+			t.tabIndex=on?0:-1;
+			var panel=document.getElementById(t.getAttribute('aria-controls'));
+			if(panel){panel.hidden=!on;}
+		});
+		if(focus){tab.focus();}
+		// Feeds measure themselves while visible, so let the newly shown one lay out again.
+		window.dispatchEvent(new Event('resize'));
+	}
+	tabs.forEach(function(tab,i){
+		tab.addEventListener('click',function(){select(tab,false);});
+		tab.addEventListener('keydown',function(e){
+			var next=null;
+			if(e.key==='ArrowRight'){next=tabs[(i+1)%tabs.length];}
+			else if(e.key==='ArrowLeft'){next=tabs[(i-1+tabs.length)%tabs.length];}
+			else if(e.key==='Home'){next=tabs[0];}
+			else if(e.key==='End'){next=tabs[tabs.length-1];}
+			if(next){e.preventDefault();select(next,true);}
+		});
+	});
+})();
+</script>
+	<?php
+}
