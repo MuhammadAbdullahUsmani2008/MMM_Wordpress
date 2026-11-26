@@ -109,6 +109,11 @@ $mmm_planner_message = rawurlencode(
 // Copy rows above the bank details list.
 $mmm_planner_rows = array(
 	array(
+		'key'   => 'row_bank',
+		'label' => 'Bank',
+		'value' => mmm_bank( 'bank' ),
+	),
+	array(
 		'key'   => 'row_account_title',
 		'label' => 'Account title',
 		'value' => mmm_bank( 'title' ),
@@ -161,14 +166,14 @@ $mmm_ways = array(
 // Bank details / contact list at the foot of the page.
 $mmm_details = array(
 	array(
-		'key'   => 'account_title',
-		'label' => 'Account title',
-		'value' => mmm_bank( 'title' ),
-	),
-	array(
 		'key'   => 'bank',
 		'label' => 'Bank',
 		'value' => mmm_bank( 'bank' ),
+	),
+	array(
+		'key'   => 'account_title',
+		'label' => 'Account title',
+		'value' => mmm_bank( 'title' ),
 	),
 	array(
 		'key'   => 'account',
