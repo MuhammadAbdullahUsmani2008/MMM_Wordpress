@@ -263,7 +263,7 @@ function mmm_e( $text ) {
 }
 
 /**
- * Home page: tabbed social feeds (Smash Balloon free plugins).
+ * Home page: tabbed social feeds (Easy Social Feed plugin, one feed per platform).
  *
  * One tab per platform, in the same order as the "Follow Muslim Medical Mission
  * in the Field" cards. A tab only appears once its plugin is active and a feed has been
@@ -272,31 +272,32 @@ function mmm_e( $text ) {
 function mmm_social_feed_tabs() {
 	global $wpdb;
 
-	// Tab order: Facebook, YouTube, Instagram, X. "table" is where each plugin stores the feeds created in its "All Feeds" screen.
+	// Tab order: Facebook, YouTube, Instagram, X. "table" is where Easy Social Feed stores each module's feeds.
 	$tabs = array(
 		'facebook'  => array(
 			'label'     => 'Facebook',
-			'shortcode' => 'custom-facebook-feed',
-			'table'     => 'cff_feeds',
+			'shortcode' => 'esf_facebook_feed',
+			'table'     => 'esf_facebook_feeds',
 		),
 		'youtube'   => array(
 			'label'     => 'YouTube',
-			'shortcode' => 'youtube-feed',
-			'table'     => 'sby_feeds',
+			'shortcode' => 'esf_youtube_feed',
+			'table'     => 'esf_youtube_feeds',
 		),
 		'instagram' => array(
 			'label'     => 'Instagram',
-			'shortcode' => 'instagram-feed',
-			'table'     => 'sbi_feeds',
+			'shortcode' => 'esf_instagram_feed',
+			'table'     => 'esf_instagram_feeds',
 		),
 		'x'         => array(
 			'label'     => 'X',
-			'shortcode' => 'custom-twitter-feeds',
-			'table'     => 'ctf_feeds',
+			'shortcode' => 'esf_twitter_feed',
+			'table'     => 'esf_twitter_feeds',
 		),
 	);
 
-	// Keep a tab only when its plugin is active and a feed exists; show that plugin's first feed.
+	// Keep a tab only when its module is active and an active feed exists; show that module's first active feed.
+	// Facebook's table also holds Like Box rows, so only rows of type "feed" count there.
 	foreach ( $tabs as $key => $tab ) {
 		$feed_id = 0;
 		if ( shortcode_exists( $tab['shortcode'] ) ) {
@@ -304,11 +305,14 @@ function mmm_social_feed_tabs() {
 			// phpcs:ignore WordPress.DB.DirectDatabaseQuery
 			if ( $wpdb->get_var( $wpdb->prepare( 'SHOW TABLES LIKE %s', $wpdb->esc_like( $table ) ) ) === $table ) {
 				// phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.InterpolatedNotPrepared
-				$feed_id = (int) $wpdb->get_var( "SELECT id FROM `{$table}` ORDER BY id ASC LIMIT 1" );
+				$where   = 'facebook' === $key ? "status = 'active' AND content_type = 'feed'" : "status = 'active'";
+				$feed_id = (int) $wpdb->get_var( "SELECT id FROM `{$table}` WHERE {$where} ORDER BY id ASC LIMIT 1" );
 			}
 		}
-		if ( $feed_id > 0 ) {
-			$tabs[ $key ]['feed'] = $feed_id;
+		// Render now, so a feed whose account has expired (empty output) never becomes an empty tab.
+		$html = $feed_id > 0 ? trim( do_shortcode( sprintf( '[%s id="%d"]', $tab['shortcode'], $feed_id ) ) ) : '';
+		if ( '' !== $html ) {
+			$tabs[ $key ]['html'] = $html;
 		} else {
 			unset( $tabs[ $key ] );
 		}
@@ -337,7 +341,7 @@ function mmm_social_feed_tabs() {
 			esc_attr( $key ),
 			$key === $first ? '' : ' hidden'
 		);
-		echo do_shortcode( sprintf( '[%s feed=%d]', $tab['shortcode'], $tab['feed'] ) );
+		echo $tab['html']; // phpcs:ignore WordPress.Security.EscapeOutput -- plugin-rendered feed markup.
 		echo '</div>';
 	}
 	echo '</div>';
