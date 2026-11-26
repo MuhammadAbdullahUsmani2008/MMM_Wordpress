@@ -141,6 +141,8 @@ function mmm_document_title( $title = '' ) {
 	return $doc ? $doc . ' | ' . $org : $org;
 }
 add_filter( 'pre_get_document_title', 'mmm_document_title' );
+// Keep these titles: stop All in One SEO from replacing them with its own "Page - Site" format.
+add_filter( 'aioseo_disable_title_rewrites', '__return_true' );
 
 /**
  * Emit the theme colour before the document title, as the original did.
