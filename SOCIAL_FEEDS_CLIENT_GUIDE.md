@@ -1,61 +1,60 @@
 # Connecting MMM's social accounts to the website
 
-The website has four feed plugins installed, one per platform. Each one needs a single sign-in from
-the person who manages that MMM account. Nobody else sees the password: you sign in on the platform's
-own page (Facebook, Google, Instagram, X) and approve access.
+The website uses the **Easy Social Feed** plugin. It has one section per platform (Facebook, YouTube,
+Instagram, X). Each one needs a single sign-in from the person who manages that MMM account, and then
+one feed created. Nobody else sees the password: you sign in on the platform's own page (Facebook,
+Google, Instagram, X) and approve access.
 
-It takes about 10 minutes in total. Do the four platforms in this order.
+Each platform appears as its own tab on the home page, in the "Follow Muslim Medical Mission in the
+Field" section, as soon as its feed has been created. A platform that is not connected simply has no tab.
 
 ## Before you start
 
 1. Open `https://mmm.org.pk/wp-admin` and log in to WordPress.
 2. Have the logins ready for MMM's Facebook page, YouTube channel, Instagram and X accounts.
-3. If any screen offers a paid upgrade ("Pro") or an extra plugin, skip it. The free version is enough.
+3. If any screen offers a paid upgrade ("Pro", "Cyber Monday deal") or an extra plugin, skip it.
+   The free version is enough.
+4. Create **one feed per platform**. The website shows the first feed of each platform.
 
 ## 1. Facebook
 
-1. In the left menu click **Facebook Feed**.
-2. Click **Launch the Setup Wizard** (or **Add New**).
-3. Choose **Page** as the source and click **Connect**.
-4. Log in with the Facebook account that is an **admin of the Muslim Medical Mission page**.
-5. Select the **Muslim Medical Mission** page and approve the access requested.
-6. Continue to the end of the wizard and save. Any layout is fine.
+1. In the left menu open **Easy Social Feed > Facebook** (or **Facebook Feed**).
+2. Click **Connect account**.
+3. Log in with the Facebook account that is an **admin of the Muslim Medical Mission page**.
+   Only Pages can be connected, not personal profiles.
+4. Select the **Muslim Medical Mission** page and approve the access requested.
+5. Create a feed for that page and save it. Any layout is fine.
+
+If Facebook says "You previously logged into Easy Social Feed", remove Easy Social Feed from your
+Facebook **Business Integrations** first, then connect again.
 
 ## 2. YouTube
 
-1. In the left menu click **YouTube Feed**.
-2. Click **Launch the Setup Wizard** (or **Add New**).
-3. Choose **Channel** as the feed type.
-4. Click **Connect** and sign in with the Google account that owns the **@mmmpakofficial** channel, then approve.
-5. If it asks for the channel, enter `@mmmpakofficial`.
-6. Continue to the end of the wizard and save.
+1. Open **Easy Social Feed > YouTube**.
+2. Click **Connect account** and sign in with the Google account that owns the **@mmmpakofficial** channel.
+3. Approve the access requested.
+4. Create a **channel** feed and save it.
 
 ## 3. Instagram
 
-MMM's Instagram must be a **Business or Creator** account for this to work. Personal accounts can no
-longer be connected. You can check or switch this in the Instagram app under Settings > Account type.
+MMM's Instagram must be a **Business or Creator** account. Personal accounts cannot be connected.
+You can check or switch this in the Instagram app under Settings > Account type.
 
-1. In the left menu click **Instagram Feed**.
-2. Click **Launch the Setup Wizard** (or **Add New**).
-3. Choose **User Timeline**, then **Add Source**, and pick **Business**.
-4. Log in with Facebook or Instagram when asked and select the **@MMMPakOfficial** account.
-5. Approve the access requested, then continue to the end of the wizard and save.
+1. Open **Easy Social Feed > Instagram**.
+2. Click **Connect account** and log in when asked, then select **@MMMPakOfficial**.
+3. Approve the access requested.
+4. Create a feed and save it.
 
 ## 4. X (Twitter)
 
-The free X plugin is limited: it shows only MMM's own posts and updates slowly.
-
-1. In the left menu click **Twitter Feed**.
-2. Click **Launch the Setup Wizard** (or **Add New**).
-3. It asks you to connect a free Smash Balloon account. Enter MMM's email address and confirm it from the
-   email they send.
-4. Choose **User Timeline** and enter `MMMPakOfficial`.
-5. Continue to the end of the wizard and save.
+1. Open **Easy Social Feed > X / Twitter**.
+2. Click **Connect account** and sign in with the **@MMMPakOfficial** X account.
+3. Approve the access requested.
+4. Create a feed and save it.
 
 ## When you are done
 
-Tell the web team which platforms you connected. Each platform's tab appears on the home page, in the
-"Follow Muslim Medical Mission in the Field" section, as soon as its feed has been created. A platform
-that is not connected simply has no tab.
+Open `https://mmm.org.pk` and scroll to "Follow Muslim Medical Mission in the Field". You should see a
+tab for each platform you connected. Tell the web team which platforms you connected.
 
 If a step fails, take a screenshot of the message and send it to the web team. Do not share passwords.
